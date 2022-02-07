@@ -1,11 +1,10 @@
 ---
-title: Andys Blog ndew
+title: Andys Blog blog-6
 description: My article description
 tags: ''
 cover_image: ''
 canonical_url: null
 published: false
-id: 981471
 ---
 Some random text with a [link](https://code.visualstudio.com).
 
