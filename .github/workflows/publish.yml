@@ -27,6 +27,9 @@ jobs:
 
     - name: Publish articles on dev.to
       uses: sinedied/publish-devto@v2
+      env:
+        GIT_COMMITTER_NAME: Karan Singh
+        GIT_COMMITTER_EMAIL: karan@redhat.com
       with:
         # Your dev.to personal API key to publish and update articles.
         # See https://docs.dev.to/api/#section/Authentication/api_key
