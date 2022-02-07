@@ -13,6 +13,7 @@ Some random text with a [link](https://code.visualstudio.com).
 ## Serious title
 
 Add some text here and there!
+this is an updated line
 
 ![and some pictures too](./assets/cat.jpeg)
 
