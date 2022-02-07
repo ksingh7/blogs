@@ -14,6 +14,7 @@ Some random text with a [link](https://code.visualstudio.com).
 
 Add some text here and there!
 this is an updated line
+This post goes on dev and medium both
 
 ![and some pictures too](./assets/cat.jpeg)
 
@@ -26,4 +27,4 @@ def myFunction()
   
 ```
 Done!
-jhfjhfg
+
