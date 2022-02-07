@@ -1,11 +1,10 @@
 ---
-title: Mastering Machine Learning
-published: false
-description: A simple test article
+title: Your Title Goes Here
+description: Your Description goes here
 tags: 'productivity, beginners, test'
 cover_image: ./assets/cat.jpeg
 canonical_url: null
-id: 853728
+published: false
 ---
 
 Some random text with a [link](https://code.visualstudio.com).
