@@ -1,6 +1,6 @@
 ---
 title: Mastering Machine Learning
-published: true
+published: false
 description: A simple test article
 tags: 'productivity, beginners, test'
 cover_image: ./assets/cat.jpeg
