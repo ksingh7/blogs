@@ -2,9 +2,11 @@
 title: Andys Blog blog-1
 description: My article description
 tags: 'andy,atharv,anda'
-cover_image: './assets/cat.jpeg'
+cover_image: ./assets/cat.jpeg
 canonical_url: null
 published: true
+id: 981483
+date: '2022-02-07T13:23:31Z'
 ---
 Some random text with a [link](https://code.visualstudio.com).
 
