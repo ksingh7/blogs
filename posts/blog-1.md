@@ -12,11 +12,9 @@ Some random text with a [link](https://code.visualstudio.com).
 
 ## Serious title
 
-Add some text here and there!
-this is an updated line
 This post goes on dev and medium both
 
-![and some pictures too](./posts/assets/cat.jpeg)
+![and some pictures too](./assets/cat.jpeg)
 
 ## Some Code Snippet
 

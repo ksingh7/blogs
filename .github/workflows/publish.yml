@@ -1,0 +1,14 @@
+name: publish-to-medium
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the post
+        id: post
+        run: echo "::set-output name=data::$(cat ./posts/blog-1.md)"
+      - uses: infraway/medium-post-markdown@v1.5.0
+        with:
+          access_token: ${{ secrets.MEDIUM_TOKEN }}
+          markdown: ${{ steps.post.outputs.data }}
