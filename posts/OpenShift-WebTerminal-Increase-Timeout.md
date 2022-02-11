@@ -8,7 +8,7 @@ published: true
 ---
 ![](https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2020/09/WebTerminal_TechPreview_1x.png)
 
-### Introduction
+## Introduction
 
 Hello World!
 
@@ -21,7 +21,7 @@ I will not go into the details of installing OpenShift WebTerminal, instead will
 - [Install OpenShift's Web Terminal Operator in any namespace](https://short.ksingh.in/ocpwebterminal)
 - [Web Terminal : One more reason to ❤️ OpenShift](https://ksingh7.medium.com/web-terminal-one-more-reason-to-%EF%B8%8F-openshift-38b640e8c6b)
 
-### Increasing Web Terminal Timeout
+## Increasing Web Terminal Timeout
 
 By default the web terminal pod timeout is set for 15 minutes, for all practical reasons i found it too short. I will share with you how to increase the timeout of OpenShift's web terminal pod. Let's go !!
 
@@ -41,10 +41,10 @@ config:
 EOF
 ```
 
-### Summary
+## Summary
 This how to increase the timeout of OpenShift's web terminal pod. Now the web terminal pod will timeout after 8 hours. Incase the web terminal UI report `disconnect` don't worry, its just the UI component that was unable to establish a connection with the web terminal pod. To fix, close the web terminal and re-open it.
 
-### More Information on this topic
+## More Information on this topic
 - [Install OpenShift's Web Terminal Operator in any namespace](https://short.ksingh.in/ocpwebterminal)
 - [Cluster tooling updates and more in Red Hat OpenShift's Web Terminal Operator 1.3](https://short.ksingh.in/ocpwebterminal2)
 - [What's new in Red Hat OpenShift's Web Terminal Operator](https://short.ksingh.in/ocpwebterminal3)
