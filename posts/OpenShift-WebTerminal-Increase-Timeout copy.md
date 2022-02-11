@@ -1,7 +1,7 @@
 ---
 title: Andys blog-3
 description: My article description
-tags: 'openshift, web-terminal, openshift-console'
+tags: 'openshift,web,terminal'
 cover_image: ./assets/cat.jpeg
 canonical_url: null
 published: true
