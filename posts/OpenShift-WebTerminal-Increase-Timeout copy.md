@@ -1,5 +1,5 @@
 ---
-title: Increase timeout of OpenShift Web Terminal 
+title: Andys blog-3 
 description: Learn how to increase the timeout of OpenShift Web Terminal from 15 minutes to any time you want.
 tags: 'openshift,web,terminal'
 cover_image: ./assets/cat.jpeg
