@@ -1,11 +1,13 @@
 ---
-title: Andys Blog blog-6
-description: My article description
-tags: ''
-cover_image: ''
+title: Your Title Goes Here
+description: Your Description goes here
+tags: 'productivity, beginners, test'
+# cover_image: ./assets/cat.jpeg (currently does not work)
 canonical_url: null
 published: false
 ---
+![Cover Image](https://images.unsplash.com/photo-1644333192059-10ec15101699)
+
 Some random text with a [link](https://code.visualstudio.com).
 
 ## Serious title
@@ -20,7 +22,4 @@ Add some text here and there!
 
 def myFunction()
   return true
-  
 ```
-Done!
-jhfjhfg
