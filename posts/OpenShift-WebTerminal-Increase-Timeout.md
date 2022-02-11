@@ -28,7 +28,7 @@ By default the web terminal pod timeout is set for 15 minutes, for all practical
 - Prerequisites : OpenShift Web Terminal Operator is installed
 - Lanuch OpenShift Web Terminal
 - Execute the following command to create DevWorkspaceOperatorConfig
-```
+```python
 cat <<EOF | oc apply -f -
 apiVersion: controller.devfile.io/v1alpha1
 kind: DevWorkspaceOperatorConfig
