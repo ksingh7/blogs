@@ -16,9 +16,9 @@ git add . ; git commit -am "blog : Automated release pipeline for my blogs" ; gi
 ```
 - Head over to [Github Actions UI](https://github.com/ksingh7/blogs/actions)
 - Let the Github Action Complete
-- Head over to your blog properties
-  - [ksingh7.medium.com](https://ksingh7.medium.com/)
-  - [dev.to/ksingh7](https://dev.to/ksingh7)
+- Head over to your blog properties (login required)
+  - [ksingh7.medium.com](https://medium.com/me/stories/public)
+  - [dev.to/ksingh7](https://dev.to/dashboard)
 
 ## Blog Template
 
