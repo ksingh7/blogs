@@ -12,7 +12,7 @@ Some random text with a [link](https://code.visualstudio.com).
 
 ## Serious title
 
-This post goes on dev and medium both using github action shark
+This post goes on dev and medium both using github action shark new
 
 
 ![and some pictures too](./assets/cat.jpeg)
