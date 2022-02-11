@@ -26,3 +26,24 @@ By default the web terminal pod timeout is set for 15 minutes, for all practical
 - Prerequisites : OpenShift Web Terminal Operator is installed
 - Lanuch OpenShift Web Terminal
 - Execute the following command to create DevWorkspaceOperatorConfig
+
+```python
+cat <<EOF | oc apply -f -
+apiVersion: controller.devfile.io/v1alpha1
+kind: DevWorkspaceOperatorConfig
+metadata:
+  name: devworkspace-operator-config
+  namespace: openshift-operators
+config:
+  workspace:
+    idleTimeout: 8h
+EOF
+```
+
+## Summary
+This how to increase the timeout of OpenShift's web terminal pod. Now the web terminal pod will timeout after 8 hours. Incase the web terminal UI report `disconnect` don't worry, its just the UI component that was unable to establish a connection with the web terminal pod. To fix, close the web terminal and re-open it.
+
+## More Information on this topic
+- [Install OpenShift's Web Terminal Operator in any namespace](https://short.ksingh.in/ocpwebterminal)
+- [Cluster tooling updates and more in Red Hat OpenShift's Web Terminal Operator 1.3](https://short.ksingh.in/ocpwebterminal2)
+- [What's new in Red Hat OpenShift's Web Terminal Operator](https://short.ksingh.in/ocpwebterminal3)
