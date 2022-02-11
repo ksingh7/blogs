@@ -8,7 +8,7 @@ on:
       - 'posts/*'
 jobs:
   publish:
-    name: publishing new blog posts
+    name: publish new article
     runs-on: ubuntu-latest    
     steps:
       - name: Checkout
