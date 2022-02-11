@@ -8,7 +8,7 @@ on:
       - 'posts/*'
 jobs:
   publish:
-    name: publish new article
+    name: publish new article on dev and medium
     runs-on: ubuntu-latest    
     steps:
       - name: Checkout
