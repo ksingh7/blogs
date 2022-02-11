@@ -1,7 +1,7 @@
 ---
 title: Andys blog-3
 description: My article description
-tags: 'openshift, web-terminal, kubernetes, openshift-console'
+tags: 'openshift,web-terminal, kubernetes, openshift-console'
 cover_image: ./assets/cat.jpeg
 canonical_url: null
 published: true
