@@ -18,3 +18,11 @@ I will not go into the details of installing OpenShift WebTerminal, instead will
 
 - [Install OpenShift's Web Terminal Operator in any namespace](https://short.ksingh.in/ocpwebterminal)
 - [Web Terminal : One more reason to ❤️ OpenShift](https://ksingh7.medium.com/web-terminal-one-more-reason-to-%EF%B8%8F-openshift-38b640e8c6b)
+
+## Increasing Web Terminal Timeout
+
+By default the web terminal pod timeout is set for 15 minutes, for all practical reasons i found it too short. I will share with you how to increase the timeout of OpenShift's web terminal pod. Let's go !!
+
+- Prerequisites : OpenShift Web Terminal Operator is installed
+- Lanuch OpenShift Web Terminal
+- Execute the following command to create DevWorkspaceOperatorConfig
