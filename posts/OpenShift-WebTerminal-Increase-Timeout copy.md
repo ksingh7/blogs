@@ -1,7 +1,7 @@
 ---
-title: Andys blog-3
-description: My article description
-tags: 'andy,atharv,anda'
+title: Increase timeout of OpenShift Web Terminal
+description: Learn how to increase the timeout of OpenShift Web Terminal from 15 minutes to any time you want.
+tags: 'openshift, web-terminal, openshift-console'
 cover_image: ./assets/cat.jpeg
 canonical_url: null
 published: true
