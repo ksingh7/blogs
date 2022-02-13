@@ -9,10 +9,12 @@ This repository is the single source of truth for all my blogs
 ## How i Automated my blogs
 
 - Copy the `template.md` file under the posts directory and give it a sane name
-- Write content in your new `blogs/automated-release-pipeline-for-my-blogs.md`
-- Git add/commit/push
+- Write content in your new `posts/automated-release-pipeline-for-my-blogs.md`
+- Git add/commit/create tag/push tag
 ```
-git add . ; git commit -am "blog : Automated release pipeline for my blogs" ; git push origin main
+git add . ; git commit -am "blog:automated-release-pipeline-for-my-blogs" ; git push origin main
+git tag -a blog-automated-release-pipeline -m "automated-release-pipeline-for-my-blogs"
+git push origin blog-automated-release-pipeline
 ```
 - Head over to [Github Actions UI](https://github.com/ksingh7/blogs/actions)
 - Let the Github Action Complete
@@ -20,6 +22,7 @@ git add . ; git commit -am "blog : Automated release pipeline for my blogs" ; gi
   - [ksingh7.medium.com](https://medium.com/me/stories/public)
   - [dev.to/ksingh7](https://dev.to/dashboard)
 
+Note : In case you do not publish / re-publish a blog put that in drafts directory
 ## Blog Template
 
 ```
