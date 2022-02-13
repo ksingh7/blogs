@@ -1,6 +1,9 @@
 name: 'publish to dev and medium'
 
-on: push
+on:
+  push:
+    tags:
+    - '*'
 jobs:
   publish:
     name: publish new article on dev and medium
