@@ -18,7 +18,7 @@ This blog post is a simplified version of the [official documentation](https://d
 
 - Azure account and portal access
 - ARO requires `roleAssignment/write` permission, make sure your Azure User account has
-`Microsoft.Authorization/roleAssignments/write` permissions, such as `User Access Administrator` or Owner[https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles]
+`Microsoft.Authorization/roleAssignments/write` permissions, such as `User Access Administrator` or `Owner` (more info here)[https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles]
 
 ![](./assets/aro-2.png)
 
