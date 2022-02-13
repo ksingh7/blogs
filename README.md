@@ -1,8 +1,9 @@
 ## Automated Release Pipeline for my Blogs
 
-I frequently blogs on two platforms medium and hashnode, links to my blogs are
+I frequently blogs on multiple platforms medium, dev.to and hashnode, links to my blogs are
 - [ksingh7.medium.com](https://ksingh7.medium.com/)
 - [dev.to/ksingh7](https://dev.to/ksingh7)
+- [blog.ksingh.in/](https://blog.ksingh.in/)
 
 This repository is the single source of truth for all my blogs
 
@@ -27,6 +28,7 @@ git push origin blog-automated-release-pipeline
 - If you want to modify an already published blog then
   - Go to the blog platform and update the required section. This way the blog views will not be affected
   - (else danger zone) Delete the blog from the platform and re-publish it
+- I also sometime uses [bloggu.io](https://bloggu.io/) for publishing blogs on all 3 platforms, its a great tool
 ## Blog Template
 
 ```
