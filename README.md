@@ -22,7 +22,11 @@ git push origin blog-automated-release-pipeline
   - [ksingh7.medium.com](https://medium.com/me/stories/public)
   - [dev.to/ksingh7](https://dev.to/dashboard)
 
-Note : In case you do not publish / re-publish a blog put that in drafts directory
+### Note 
+- In case you do not publish / re-publish a blog put that in drafts directory
+- If you want to modify an already published blog then
+  - Go to the blog platform and update the required section. This way the blog views will not be affected
+  - (else danger zone) Delete the blog from the platform and re-publish it
 ## Blog Template
 
 ```
