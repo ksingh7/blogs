@@ -1,11 +1,6 @@
 name: 'publish to dev and medium'
 
-on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'posts/*'
+on: push
 jobs:
   publish:
     name: publish new article on dev and medium
