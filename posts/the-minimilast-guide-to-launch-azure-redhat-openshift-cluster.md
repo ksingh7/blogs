@@ -97,4 +97,5 @@ apiServer=$(az aro show -g $RESOURCEGROUP -n $CLUSTER --query apiserverProfile.u
 oc login $apiServer -u kubeadmin -p <kubeadmin password>
 ```
 ## Summary
-The experience of launching OpenShift cluster from Azure Cloud Shell `aro` is very simple and easy. Hope this helps.
+The experience of launching OpenShift cluster from Azure Cloud Shell `aro` is very simple and easy. 
+Hope this helps.
