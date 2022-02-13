@@ -26,7 +26,7 @@ git add . ; git commit -am "blog : Automated release pipeline for my blogs" ; gi
 ---
 title: Your Title Goes Here
 description: Your Description goes here
-tags: 'productivity, beginners, test'
+tags: 'productivity,beginners,test'
 # cover_image: ./assets/cat.jpeg (currently does not work)
 canonical_url: null
 published: false
