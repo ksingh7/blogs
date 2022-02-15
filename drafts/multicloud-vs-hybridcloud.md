@@ -7,4 +7,5 @@ These two terms are very similar yet different. Lol ;D
 
 - **Hybrid Cloud** : Refers to the combination of public and private clouds with some degree of connectivity, integration, portability and unified management.
 
-![](https://im7.ezgif.com/tmp/ezgif-7-cce5f7996e.gif)
+
+![](https://raw.githubusercontent.com/ksingh7/blogs/main/posts/assets/thats-all-folks.gif)
